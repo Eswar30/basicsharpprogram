@@ -10,7 +10,7 @@ namespace DSA.Algorithms
     {
        static int[] array = { 59, 23, 61, 90, 33, 2, 30 };
 
-        //T(n)=> O(n)
+        //T(n)=> O(n) // Time Complextiy 
         public static void Do()
         {
             Console.WriteLine("Please enter a number to search in array");

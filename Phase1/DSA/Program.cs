@@ -1,5 +1,5 @@
 ﻿using System;
-
+using DSA.Algorithms;
 namespace DSA
 {
     class Program
@@ -16,7 +16,7 @@ namespace DSA
             //Linkedlist t2 = new Linkedlist();
             // t2.Do();
 
-            Algorithms.LinearSearch.Do();
+          LinearSearch.Do();
 
         }
     }
