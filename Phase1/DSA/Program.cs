@@ -13,9 +13,10 @@ namespace DSA
             //Queue t1 = new Queue();
             // t1.Do();
 
-            Linkedlist t2 = new Linkedlist();
-            t2.Do();
+            //Linkedlist t2 = new Linkedlist();
+            // t2.Do();
 
+            Algorithms.LinearSearch.Do();
 
         }
     }
