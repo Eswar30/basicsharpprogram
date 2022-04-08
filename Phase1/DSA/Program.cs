@@ -16,8 +16,10 @@ namespace DSA
             //Linkedlist t2 = new Linkedlist();
             // t2.Do();
 
-          LinearSearch.Do();
+            //LinearSearch.Do();
 
+            //BinarySearch.Do();
+            BubbleSort.Do();
         }
     }
 }
