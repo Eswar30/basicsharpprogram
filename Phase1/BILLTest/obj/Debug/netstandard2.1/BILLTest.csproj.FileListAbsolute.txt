@@ -1,0 +1,10 @@
+C:\Testing\Phase1\BILLTest\bin\Debug\netstandard2.1\BILLTest.deps.json
+C:\Testing\Phase1\BILLTest\bin\Debug\netstandard2.1\BILLTest.dll
+C:\Testing\Phase1\BILLTest\bin\Debug\netstandard2.1\BILLTest.pdb
+C:\Testing\Phase1\BILLTest\obj\Debug\netstandard2.1\BILLTest.csproj.AssemblyReference.cache
+C:\Testing\Phase1\BILLTest\obj\Debug\netstandard2.1\BILLTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Testing\Phase1\BILLTest\obj\Debug\netstandard2.1\BILLTest.AssemblyInfoInputs.cache
+C:\Testing\Phase1\BILLTest\obj\Debug\netstandard2.1\BILLTest.AssemblyInfo.cs
+C:\Testing\Phase1\BILLTest\obj\Debug\netstandard2.1\BILLTest.csproj.CoreCompileInputs.cache
+C:\Testing\Phase1\BILLTest\obj\Debug\netstandard2.1\BILLTest.dll
+C:\Testing\Phase1\BILLTest\obj\Debug\netstandard2.1\BILLTest.pdb

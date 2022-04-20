@@ -21,7 +21,7 @@ namespace DSA.Algorithms
         {
             if (left < right)
             {
-
+                //time complexity : nlogn n < n square.
                 // 1. find mid 
                 int mid = (left + right) / 2;
 
