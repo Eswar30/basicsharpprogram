@@ -20,5 +20,21 @@ namespace OOPSConcepts
         {
             // Logic
         }
+
+        // Method Overloading/ Compiletime polymorphism .  [Name matches, but either number or type of 
+        //Signature = Name+Returntype +type and number of arguments]
+        public int GetBenifit(string benifitName)
+        {
+            //Logic 
+            return 1; 
+        }
+
+        // Runtime polymorphism  or method overriding
+
+        public override void GetSalary()
+        {
+            Console.WriteLine("Getting salary for fulltimeemployee class");
+
+        }
     }
 }

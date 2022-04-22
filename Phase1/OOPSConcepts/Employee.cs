@@ -21,8 +21,36 @@ namespace OOPSConcepts
 
         }
 
-        public int ID { get; set; }
+        private int _ID;
 
+        public int ID
+        {
+
+            get
+            {
+                // if (user is valid)
+                return this._ID;
+            }
+            set
+            {
+                if (!this.Validate(value))
+                {
+                    throw new Exception("Invalid Value");
+                }
+                this._ID = value;
+            }
+
+        }
+
+        private bool Validate(int id)
+        {
+            // db calls
+            if( id < 1)
+            {
+                return false;
+            }
+            return true;
+        }
         public string Name { get; set; }
 
         public string Department { get; set; }
@@ -31,9 +59,16 @@ namespace OOPSConcepts
         {
             // do work 
 
+            // ITTeam.SolveProblem();
+            //Console.WriteLine(this.ID);
+            // get IT problem
+           // Console.WriteLine("IT issues");
+           // ITTeam.SolveProblem();
+
+
         }
 
-        public void GetSalary()
+        public virtual void GetSalary()
         {
             Console.WriteLine(this.ID);
             // get salary
