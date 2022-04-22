@@ -9,13 +9,15 @@ namespace OOPSConcepts
 {
     abstract class Employee
     {
-       // public ITTeam ITTeam { get; set;  }
+        public IITTeam ITTeam { get; set;  }
         public IFinanceTeam FinanceTeam { get; set;  }
-        public Employee(int id, string name, string dept)
+        public Employee(int id, string name, string dept, IFinanceTeam team, IITTeam team1)
         {
             this.ID = id;
             this.Name = name;
             this.Department = dept;
+            FinanceTeam = team;
+            ITTeam = team1;
 
         }
 
@@ -37,6 +39,7 @@ namespace OOPSConcepts
             // get salary
             Console.WriteLine("Salary Credited");
             FinanceTeam.TakeRequestFromEmployee();
+            ITTeam.SolveProblem();
 
         }
 

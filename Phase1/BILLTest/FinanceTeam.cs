@@ -9,7 +9,7 @@ namespace OOPSConcepts
 {
     class FinanceTeam : IFinanceTeam
     {
-        FinanceTeam()
+       public FinanceTeam()
         {
 
         }

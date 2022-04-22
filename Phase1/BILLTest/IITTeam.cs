@@ -4,7 +4,8 @@ using System.Text;
 
 namespace BILLTest
 {
-    interface IITTeam
+   public interface IITTeam
     {
+        void SolveProblem();
     }
 }
